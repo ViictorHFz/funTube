@@ -3,18 +3,103 @@
   "job": "Junior Software Developer",
   "github": "ViictorHFz",
   "playlists": {
-    "games": [
-      {
-        "title": "Algum titulo",
-        "url": "url",
-        "thumb": "thumbnail do video"
-      }
-    ],
     "foods": [
       {
-        "title": "Algum titulo",
-        "url": "url",
-        "thumb": "thumbnail do video"
+        "title": "1 HOUR PIZZA?! (Perfect for Weeknights or Any Nights)",
+        "url": "https://www.youtube.com/watch?v=T57vFsL8eAU&ab_channel=BrianLagerstrom",
+        "thumb": "https://img.youtube.com/vi/T57vFsL8eAU/hqdefault.jpg"
+      },
+      {
+        "title": "HAMBÚRGUER SIMPLES E BEM FEITO | Cozinha Básica",
+        "url": "https://www.youtube.com/watch?v=2gd240qgBFY&ab_channel=MohamadHindi",
+        "thumb":"https://img.youtube.com/vi/2gd240qgBFY/hqdefault.jpg"
+      },
+      {
+        "title": "Street Food in Brazil - RIO DE JANEIRO Brazilian Food + Attractions in Rio, Brazil!",
+        "url": "https://www.youtube.com/watch?v=TlWDF3BfUdo&t=265s&ab_channel=MarkWiens",
+        "thumb": "https://img.youtube.com/vi/TlWDF3BfUdo/hqdefault.jpg"
+      },
+      {
+        "title": "6 Pro Chefs Make Their Favorite 15-Minute Meal | Test Kitchen Talks | Bon Appétit",
+        "url": "https://www.youtube.com/watch?v=O1JDBt6WE7A&ab_channel=BonApp%C3%A9tit",
+        "thumb": "https://img.youtube.com/vi/O1JDBt6WE7A/hqdefault.jpg"
+      },
+      {
+        "title": "This Fried Chicken Recipe Took Over NYC (9,000 Waitlist)",
+        "url": "https://www.youtube.com/watch?v=ZINFIO62jRQ&ab_channel=ProHomeCooks",
+        "thumb": "https://img.youtube.com/vi/ZINFIO62jRQ/hqdefault.jpg"
+      }
+
+    ],
+    "musics": [
+      {
+        "title": "Kendrick Lamar - N95",
+        "url": "https://www.youtube.com/watch?v=zI383uEwA6Q&ab_channel=KendrickLamarVEVO",
+        "thumb": "https://img.youtube.com/vi/zI383uEwA6Q/hqdefault.jpg"
+      },
+      {
+        "title": "Tyler, The Creator - WUSYANAME (Official Video)",
+        "url": "https://www.youtube.com/watch?v=NJea386275c&ab_channel=Tyler%2CTheCreator",
+        "thumb": "https://img.youtube.com/vi/NJea386275c/hqdefault.jpg"
+      },
+      {
+        "title": "Lil Uzi Vert - XO Tour Llif3 (Official Lyric Video)",
+        "url": "https://www.youtube.com/watch?v=VcyFfcJbyeM&ab_channel=LILUZIVERT",
+        "thumb": "https://img.youtube.com/vi/VcyFfcJbyeM/hqdefault.jpg"
+      },
+      {
+        "title": "No Role Modelz",
+        "url": "https://www.youtube.com/watch?v=8HBcV0MtAQg&ab_channel=J.Cole-Topic",
+        "thumb": "https://img.youtube.com/vi/8HBcV0MtAQg/hqdefault.jpg"
+      }
+    ],
+    "games": [
+      {
+        "title": "Red Dead Redemption 2 ►RTX 3090 Ti i9-12900KS Ultra Settings PC Gameplay! 4k Resolution 60fps",
+        "url": "https://www.youtube.com/watch?v=YisYNBBd3Jw&ab_channel=DubStepZz",
+        "thumb": "https://img.youtube.com/vi/YisYNBBd3Jw/hqdefault.jpg"
+      },
+      {
+        "title": "THE LAST OF US 2 PS5 Gameplay 4K 60FPS HDR ULTRA HD (Upgrade Patch)",
+        "url": "https://www.youtube.com/watch?v=z2XS_RryJGk&t=321s&ab_channel=Shirrako",
+        "thumb": "https://img.youtube.com/vi/z2XS_RryJGk/hqdefault.jpg"
+      },
+      {
+        "title": "Ghost of Tsushima (PS5) 4K 60FPS HDR Gameplay",
+        "url": "https://www.youtube.com/watch?v=VfDWTaFqAUo&ab_channel=FAGAMEZ",
+        "thumb": "https://img.youtube.com/vi/VfDWTaFqAUo/hqdefault.jpg"
+      },
+      {
+        "title": "GOD OF WAR 4 PS5 Enhanced Gameplay (4K 60FPS Playstation 5)",
+        "url": "https://www.youtube.com/watch?v=mSvoggJED9g&ab_channel=MKIceAndFire",
+        "thumb": "https://img.youtube.com/vi/mSvoggJED9g/hqdefault.jpg"
+      }
+    ],
+    "coding": [
+      {
+        "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
+        "url": "https://www.youtube.com/watch?v=yS7AcF-xRUg",
+        "thumb": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
+      },
+      {
+        "title": "O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?",
+        "url": "https://www.youtube.com/watch?v=dp0zB4n3MUs",
+        "thumb": "https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
+      },
+      {
+        "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+        "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
+        "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+      },
+      {
+        "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+        "url": "https://www.youtube.com/watch?v=8q36rNS5yVo",
+        "thumb": "https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
+      },
+      {
+        "title": "O que é Machine Learning? #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
+        "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
       }
     ]
   }
