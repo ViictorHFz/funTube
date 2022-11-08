@@ -1,0 +1,21 @@
+{
+  "name": "Victor Farias",
+  "job": "Junior Software Developer",
+  "github": "ViictorHFz",
+  "playlists": {
+    "games": [
+      {
+        "title": "Algum titulo",
+        "url": "url",
+        "thumb": "thumbnail do video"
+      }
+    ],
+    "foods": [
+      {
+        "title": "Algum titulo",
+        "url": "url",
+        "thumb": "thumbnail do video"
+      }
+    ]
+  }
+}
