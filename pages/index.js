@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components";
 import config from "../config.json";
+import Banner from "../src/components/Banner";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/StyledTimeline";
@@ -37,7 +38,6 @@ const StyledHeader = styled.div`
     border-radius: 50%;
   }
   .user__info {
-    margin-top: 50px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -49,7 +49,7 @@ const StyledHeader = styled.div`
 function Header() {
   return (
     <StyledHeader>
-      {/* <img src="banner" /> */}
+      <Banner bg={config.bg}/>
       <section className="user__info">
         <img src={`https://github.com/${config.github}.png`} />
         <div>
