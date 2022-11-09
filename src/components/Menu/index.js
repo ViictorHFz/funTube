@@ -25,13 +25,13 @@ const StyledMenu = styled.header`
   }
 `;
 
-export default function Menu() {
+export default function Menu({ searchValue, setValorFiltro }) {
   return (
     <StyledMenu>
       <div>
         <Logo />
       </div>
-        <Search />
+        <Search searchValue= {searchValue} setValorFiltro={setValorFiltro}/>
     </StyledMenu>
   );
 }

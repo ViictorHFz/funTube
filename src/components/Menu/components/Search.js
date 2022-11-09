@@ -34,10 +34,13 @@ const StyledSearch = styled.div`
   }
 `;
 
-export default function Search() {
+export default function Search({ searchValue, setValorFiltro }) {
+    // const [busca, setBusca] = React.useState("pizza");
+    const valorbusca = searchValue;
+    const setValorBusca = setValorFiltro;
     return (
         <StyledSearch>
-            <input type="text" />
+            <input type="text" onChange={(event) => setValorBusca(event.target.value)} value={valorbusca}/>
             <button>
                 🔎
             </button>
