@@ -67,10 +67,8 @@ function Timeline({searchValue, ...props}) {
     <StyledTimeline>
       {playlistsNames.map((playlistName) => {
         const videos = props.playlists[playlistName];
-        // console.log(playlistName);
-        // console.log(videos);
         return (
-          <section>
+          <section key={playlistName}>
             <h2>{playlistName}</h2>
             <div>
               {videos.filter((video) => {
@@ -79,7 +77,7 @@ function Timeline({searchValue, ...props}) {
                 return titleNormalized.includes(searchValueNormalized);
               }).map((video) => {
                 return (
-                  <a href={video.url}>
+                  <a key={video.url} href={video.url}>
                     <img src={video.thumb} />
                     <span>{video.title}</span>
                   </a>
