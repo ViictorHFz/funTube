@@ -18,7 +18,7 @@ function HomePage() {
           flex: 1,
         }}
       >
-        <Menu searchValue={valorFiltro} setValorFiltro={setValorFiltro}/>
+        <Menu searchValue={valorFiltro} setValorFiltro={setValorFiltro} />
         <Header />
         <Timeline searchValue={valorFiltro} playlists={config.playlists} />
       </div>
@@ -49,7 +49,7 @@ const StyledHeader = styled.div`
 function Header() {
   return (
     <StyledHeader>
-      <Banner bg={config.bg}/>
+      <Banner bg={config.bg} />
       <section className="user__info">
         <img src={`https://github.com/${config.github}.png`} />
         <div>
@@ -61,7 +61,7 @@ function Header() {
   );
 }
 
-function Timeline({searchValue, ...props}) {
+function Timeline({ searchValue, ...props }) {
   const playlistsNames = Object.keys(props.playlists);
   return (
     <StyledTimeline>
