@@ -51,7 +51,7 @@ export default function RegisterVideo() {
           event.preventDefault();
 
           supabase.from("tb_video").insert({
-            title: formCadastroVideo.values.title,
+            title: formCadastroVideo.values.titulo,
             url: formCadastroVideo.values.url,
             thumb: getThumbnail(formCadastroVideo.values.url) ,
             playlist: "games"
