@@ -14,10 +14,12 @@ function useForm(propsForm) {
         ...values,
         [name]: value
       });
-      console.log(values);
     },
     clearForm() {
-      setValues({})
+      setValues({
+        titulo: "",
+        url: ""
+      })
     }
   };
 }
