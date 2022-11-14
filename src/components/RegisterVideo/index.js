@@ -37,7 +37,7 @@ function getThumbnail(url) {
 
 export default function RegisterVideo() {
   const formCadastroVideo = useForm({
-    initialValues: { titulo: "teste", url: "https://youtube.com" },
+    initialValues: { titulo: "", url: "" },
   });
   const [formVisivel, setFormVisivel] = React.useState(false);
 
@@ -56,12 +56,13 @@ export default function RegisterVideo() {
             thumb: getThumbnail(formCadastroVideo.values.url) ,
             playlist: "games"
           })
-          // .then((veioOQ) => {
-          //   console.log(veioOQ)
-          // })
-          // .catch((err) => {
-          //   console.log('deu errado porra' + err)
-          // })
+          .then((response) => {
+            console.log(response);
+            window.location.reload()
+          })
+          .catch((err) => {
+            console.log(err)
+          })
 
           setFormVisivel(false);
           formCadastroVideo.clearForm();

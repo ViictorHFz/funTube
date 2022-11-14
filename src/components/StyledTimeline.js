@@ -31,8 +31,6 @@ export const StyledTimeline = styled.div`
       grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
       grid-auto-flow: column;
       grid-auto-columns: minmax(200px,1fr);
-      overflow-x: scroll;
-      scroll-snap-type: x mandatory;
       a {
         scroll-snap-align: start;
         span {
@@ -42,6 +40,10 @@ export const StyledTimeline = styled.div`
           color: ${({ theme }) => theme.textColorBase || "#222222"};
         }
       }
+    }
+    &:hover {
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
     }
   }
 `;
